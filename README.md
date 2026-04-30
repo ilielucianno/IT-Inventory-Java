@@ -1,23 +1,37 @@
-# IT Inventory - Java
+# IT Inventory
 
-A simple program to manage IT equipment inventory (cables, routers, switches, access points, servers).
+A simple Java program to keep track of IT equipment.
 
-## Features
-- Add new equipment (type, brand, description)
-- List all items
-- Search by type or brand
-- Auto-save to file (inventar.txt)
-- Load previous inventory on startup
+## What it does
 
-## How to run
-Compile and run Main.java
+You can add items like cables, routers, switches, access points, or servers. Each item has a type, brand, and description. The program saves everything to a file so you don't lose your inventory.
 
 ## Commands
-- `add` - add a new item
-- `list` - show all items
-- `search` - search by type or brand
-- `exit` - save and quit
 
-## File structure
-- `Equipment.java` - class for equipment items
-- `Main.java` - main program with menu and file handling
+- add - add a new item
+- list - see all items
+- search - find items by type or brand
+- exit - save and quit
+
+## Example
+
+=== INVENTAR IT ===
+Comenzi: add, list, search, exit
+
+Comanda: add
+Tip: router
+Brand: Cisco
+Descriere: birou principal
+Produs adaugat.
+
+Comanda: list
+1. Tip: router | Brand: Cisco | Desc: birou principal
+Total: 1 produse
+
+Comanda: search
+Cauta: Cisco
+Tip: router | Brand: Cisco | Desc: birou principal
+Gasit 1 produse.
+
+Comanda: exit
+Inventar salvat. Pa!
